@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="style.css">
+            <title>The Flavours Of India </title>
+        </head>
+        <body>
+            <div class="nav">
+                <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about us">About Us</a></li>
+                <li><a href="shop">Shop</a></li>
+                <li><a href="cart">Cart</a></li>
+                <li><a href="my account">My Account</a></li>
+                <li><a href="food reviews">Fook Reviews</a></li>
+                <li><a href="contact us">Contact Us</a></li>
+                </ul>
+            </div>
+            <div>
+                <h1>Welcome to the Indian Restaurant!
+THE FLAVOURS OF INDIA</h1>
+                <img src="food.jpg" alt="food image"  width="1000"  height="600"> 
+                <h2>
+                    <p>A festival of flavors good eats satisfy your taste enjoy a taste of heaven count the memories, not the calories
+                        <br><br>
+                        Restaurant serve as the perfect seasoning for your dining experiences. They can add depth, humor, or sophistication to your restaurant....
+                         <br><br>
+                         Our delicacies will keep you craving more. Something smooth; Feel the taste; The good side of the food; Eat responsibly. 
+                         <br><br>
+                         Food is always a good idea. It's wine o'clock Quality is our food The house of soup We speak the good food language Tasty food with you always ...
+                    </p>
+
+                          <br>
+                          <div class="container">
+                          <h3>Feedback Form</h3>
+                            <form action>
+                              <label for="fname">First Name</label>
+                              <input type="text" id="fname" name="firstname" placeholder="First Name">
+
+                              <label for="lname">Last Name</label>
+                              <input type="text" id="lname" name="lastname" placeholder="Last Name">
+
+                              <label for="country">Country</label>
+                              <select id="country" name="country">
+                                <option value="india">India</option>
+                                <option value="us">US</option>
+                                <option value="uk">UK</option>
+                              </select>
+
+                              <label for="subject">Say Something</label>
+                              <textarea id="subject" name="subject" placeholder="say something" style="height:200px"></textarea>
+
+                              <input type="submit" value="Submit">
